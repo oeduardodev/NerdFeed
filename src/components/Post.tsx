@@ -19,7 +19,7 @@ interface Content {
 }
 
 export interface PostType{
-  id:Number,
+  id:number,
   author: Author,
   publishedAt: Date,
   content:Content[];
